@@ -1,0 +1,147 @@
+
+
+.teddy-header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: darkgrey;
+}
+
+
+.teddy-header div {
+    display: flex;
+    align-items: center;
+}
+
+.teddy-header div .cart{
+    padding: 3px 5px;
+    cursor: pointer;
+    color: orangered;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image {
+    width: 90%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* /////////       CARD     ////////////////// */
+
+.card1 {
+    height: 500px;
+}
+
+.card_bdy1 {
+    /* height: 300px; */
+    margin: 10px 10px;
+    /* background: linear-gradient(#6e6167, #d22ebe); */
+    /* background-color: #fff; */
+    border-radius: 25px;
+    background-color: #fff;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card_bdy1:hover{
+    cursor:cell;
+    /* cursor:url('./Icons/cursor1.png'),auto; */
+    /* cursor: url("http://placehold.it/50x50"), auto; */
+    background-color: antiquewhite;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.img_content,
+.bdy1_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.bdy1_image {
+    position: relative;
+    width: 90%;
+    height: 100%;
+    padding: 3px;
+    /* background: rgb(244, 244, 244); */
+}
+
+.bdy1_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid #fa0202;
+}
+
+.name1 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #918d90;
+}
+
+.bdy1_footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 14px;
+}
+
+.bdy1_footer button {
+    background: none;
+    outline: none;
+    border: 1px solid;
+    /* font-size: 3vh; */
+    padding: 1vh 2vh;
+    border-radius: 5px;
+    background-color: #ff006f;
+    color: #fffbfb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* .card-footer p {
+    cursor: pointer;
+} */
+
+.bdy1_footer p i {
+    font-size: 22px;
+    color: #7c777b;
+    cursor: pointer;
+}
+
+.bdy1_footer button:hover {
+    /* background-color: rgb(255, 0, 187); */
+    color: rgb(39, 37, 37);
+}
+
+.bdy1_footer button:active {
+    color: #fff;
+}
+
+.bdy1_footer p i:active{
+    color: red;
+}
+
+@media screen and (max-width: 600px) {
+    .main-image {
+        height: 30vh;
+    }
+}
+
+

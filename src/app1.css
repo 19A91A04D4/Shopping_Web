@@ -1,0 +1,90 @@
+
+
+
+.card {
+    margin: 10px 10px;
+    /* background: linear-gradient(#6e6167, #d22ebe); */
+    border-radius: 25px;
+    background-color: #fff;
+    /* box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.card:hover{
+    cursor:cell;
+    /* cursor:url('./Icons/cursor1.png'),auto; */
+    /* cursor: url("http://placehold.it/50x50"), auto; */
+    background-color: antiquewhite;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.card-image {
+    position: relative;
+    width: 90%;
+    height: 150px;
+    padding: 3px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 2px solid #fa0202;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #918d90;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 14px;
+}
+
+.card-footer button {
+    background: none;
+    outline: none;
+    border: 1px solid;
+    font-size: 1.2rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background-color: #ff006f;
+    color: #fffbfb;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* .card-footer p {
+    cursor: pointer;
+} */
+
+.card-footer p i {
+    font-size: 22px;
+    color: #7c777b;
+    cursor: pointer;
+}
+
+.card-footer button:hover {
+    /* background-color: rgb(255, 0, 187); */
+    color: rgb(39, 37, 37);
+}
+
+.card-footer button:active {
+    color: #fff;
+}
+
+.card-footer p i:active{
+    color: red;
+}
